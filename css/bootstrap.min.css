@@ -22,6 +22,12 @@ div.main-content h2 {
   color: #1c617a;
 }
 
+div.main-content h3 {
+  text-align: center;
+  font-size: 60px;
+  color: #1c617a;
+}
+
 .item {
   width: auto;
   height: 400px;
