@@ -20,6 +20,10 @@ div.main-content h2 {
   text-align: center;
   font-size: 100px;
   color: #1c617a;
+  text-shadow: 4px 4px 5px #000;
+  position: relative;
+  top:50px;
+
 }
 
 div.main-content h3 {
@@ -38,4 +42,32 @@ div.main-content h3 {
 .carousel {
   color:#000;
   background-color:#1c617a;
+}
+
+div.home header {
+  background-image:url(http://vignette4.wikia.nocookie.net/vsbattles/images/0/00/Character_Slider_no_2.jpg/revision/latest?cb=20150317035611);
+  min-height:200px;
+  max-height:500px;
+  background-size:cover;
+}
+
+div.history header {
+  background-image:url(https://lh3.googleusercontent.com/-YUgIo4YrCqE/Vit1pO3_cfI/AAAAAAAACwg/taokiu5bVcg/w2000-h667/blog_header_12874518-1433446079.jpg);
+  min-height:200px;
+  max-height:500px;
+  background-size:cover;
+}
+
+div.gallery header {
+  background-image:url(http://cdn.wallpapersafari.com/40/28/kR4jDW.jpg);
+  min-height:200px;
+  max-height:500px;
+  background-size:cover;
+}
+
+div.works header {
+  background-image:url(http://4wearegamers.com/wp-content/uploads/2016/07/jojo_s_bizarre_adventure_wallpaper_by_franky4fingersx2-d73oy5d.jpg);
+  min-height:200px;
+  max-height:500px;
+  background-size:cover;
 }
