@@ -13,13 +13,16 @@ p {
 }
 
 div.main-content p {
-  padding:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+
 }
 
 div.main-content h2 {
   text-align: center;
   font-size: 100px;
-  color: #1c617a;
+  color: #f2b315;
   text-shadow: 4px 4px 5px #000;
   position: relative;
   top:50px;
@@ -29,7 +32,11 @@ div.main-content h2 {
 div.main-content h3 {
   text-align: center;
   font-size: 60px;
-  color: #1c617a;
+  color: #f2b315;
+}
+
+div.footer p{
+  text-align: left;
 }
 
 .item {
@@ -41,7 +48,7 @@ div.main-content h3 {
 
 .carousel {
   color:#000;
-  background-color:#1c617a;
+  background-color:#f2b315;
 }
 
 div.home header {
@@ -70,4 +77,49 @@ div.works header {
   min-height:200px;
   max-height:500px;
   background-size:cover;
+}
+
+.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-default {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 179, 21, 0.62);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 179, 21, 1);
+}
+.navbar-default .navbar-toggle {
+    border-color: #f2b315;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #f2b315;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f2b315;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+div.manga li {
+  width:200px;
+   margin:0 auto;
+   text-align:left;
 }
